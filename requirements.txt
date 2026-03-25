@@ -1,0 +1,23 @@
+# ─── Azure SDKs ───────────────────────────────────────────────────────────────
+azure-storage-blob>=12.19.0
+azure-ai-formrecognizer>=3.3.0          # Document Intelligence (OCR fallback)
+azure-search-documents>=11.4.0          # Azure AI Search (index + search)
+
+# ─── OpenAI / Embeddings ──────────────────────────────────────────────────────
+openai>=1.14.0                          # Azure OpenAI Python SDK v1+
+
+# ─── Document parsing ─────────────────────────────────────────────────────────
+pdfplumber>=0.10.3                      # Digital PDF text extraction
+Pillow>=10.0.0                          # Required by pdfplumber for image handling
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+numpy>=1.26.0                           # Vector normalisation
+PyYAML>=6.0                             # Markdown front-matter parsing
+tqdm>=4.66.0                            # Progress bars (optional but nice)
+python-dotenv>=1.0.0                    # .env file loading for local dev
+
+# ─── Notebook / dev ───────────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.29.0
+matplotlib>=3.8.0                       # Score distribution plots in notebook
+pandas>=2.2.0                           # Tabular result display in notebook

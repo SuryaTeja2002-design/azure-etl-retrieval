@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+faiss_index.bin
+chunks_store.pkl
+.ipynb_checkpoints/

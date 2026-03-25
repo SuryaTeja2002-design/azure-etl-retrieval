@@ -1,0 +1,29 @@
+SECURITY POLICY DOCUMENT
+Version 2.3 | Effective Date: January 1, 2026
+
+1. DATA ENCRYPTION
+All data transmitted between devices and servers must use TLS 1.2 or higher.
+Data at rest must be encrypted using AES-256 encryption standard.
+Encryption keys must be rotated every 90 days.
+
+2. ACCESS CONTROL
+All user accounts require multi-factor authentication (MFA).
+Passwords must be at least 12 characters with mixed case, numbers and symbols.
+Inactive accounts are automatically disabled after 60 days.
+Administrative access requires separate privileged accounts.
+
+3. INCIDENT RESPONSE
+Security incidents must be reported to security@company.com within 1 hour.
+A full incident report must be filed within 24 hours of detection.
+Critical vulnerabilities must be patched within 72 hours of disclosure.
+
+4. DEVICE SECURITY
+All devices must run approved and up-to-date firmware only.
+Default passwords must be changed before deployment.
+Devices must be registered in the central device management portal.
+Physical access to devices must be logged and audited monthly.
+
+5. DATA RETENTION
+Customer data is retained for a maximum of 7 years.
+Deleted data is permanently purged within 30 days of deletion request.
+Backups are stored in geographically separate locations.
